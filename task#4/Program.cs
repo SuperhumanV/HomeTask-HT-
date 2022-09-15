@@ -34,3 +34,7 @@ if(lineA !=null&& lineB !=null&& lineC !=null)
         Console.WriteLine(max2);
     }
 }
+// or int max = Math.Max(a,Math.Max(b,c));
+// тернарный оператор
+// or int max = ((a>b)? a:b);
+// int MAX = ((max>c)? max:c);
