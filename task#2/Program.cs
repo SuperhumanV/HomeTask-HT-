@@ -6,9 +6,13 @@ if(numA>numB)
 {
     Console.WriteLine("max=");
     Console.WriteLine(numA);
+    Console.WriteLine("min =");
+    Console.WriteLine(numB);
 }
 else 
 {
     Console.WriteLine("max =");
-    Console.Write(numB);
+    Console.WriteLine(numB);
+    Console.WriteLine("min =");
+    Console.WriteLine(numA);
 }
